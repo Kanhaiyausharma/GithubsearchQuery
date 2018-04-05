@@ -8,8 +8,32 @@
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:layout_margin="10dp"
     android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/git_enterurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please enter github query"/>
 
+    <TextView
+        android:id="@+id/showEnterURL"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:text="showenterurl"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/gitResponse"
+            android:text="API response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
 
 
 
